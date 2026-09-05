@@ -1,0 +1,153 @@
+.hero-section{
+    padding: 100px 35px 80px 35px;
+    background-color: #0F172A;
+}
+
+.hero-section .hero{
+    color: white;
+    /* width: 72%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 2.0;
+}
+
+.hero-section .hero h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+.hero-section .hero p{
+    width: 65%;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.our-expertises{
+    padding: 80px 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: white;
+}
+
+.our-expertises .p1{
+   text-align: center;
+   font-size: 18px;
+   color:red;
+   
+}
+
+.our-expertises .h1{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+}
+
+.our-expertises .p2{
+    font-size: 17px;
+    text-align: center;
+    color: rgb(110, 110, 108);
+    margin: auto;
+}
+
+.our-expertises .carding{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 40px;
+    justify-content: left;
+    align-items: center;
+}
+
+.our-expertises .cardy{
+    padding: 25px 25px;
+    display: flex;
+    gap: 18px;
+    flex-direction: row;
+    justify-content: left;
+    width: 100%;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.20);
+    border-radius: 8px;
+    color: black;
+}
+
+.our-expertises .cardy .small-logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 25%;
+    background-color: rgba(255, 0, 0, 0.144);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardy .small-logo img{
+    width: 50%;
+}
+
+.cardy:hover .small-logo{
+    background-color:rgba(255, 0, 0, 0.372);
+    transition: 0.5s;
+}
+
+.cardy .card-details{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: left;
+    align-items: left;
+    width: 90%;
+}
+
+.cardy .card-details h1{
+    font-size: 25px;
+    text-align: left;
+}
+
+.cardy .card-details p{
+    font-size: 19px;
+    color: rgb(110, 110, 108);
+}
+
+.cardy .card-details a{
+    font-size: 13px;
+    padding: 15px 30px;
+    color: red;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+.cardy:hover{
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.50);
+    cursor: pointer;
+}
+
+
+.cardy:hover a{
+    background-color: red;
+    color: white;
+    transition: 0.5s;
+}
+
+.who-we-serve{
+    padding: 80px 35px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    color: white;
+    background-color: #0F172A;
+}
+
+.who-we-serve h1{
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.who-we-serve p{
+    color: white;
+}
